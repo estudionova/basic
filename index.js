@@ -5,6 +5,63 @@
  */
 
 
+window.addEventListener('focus', event => {
+
+    console.log("Focus");
+
+});
+
+
+document.addEventListener('click', event =>{
+
+    console.log("click");
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+let calc = (x1, x2, operator) => {
+
+    return eval(` ${x1} ${operator} ${x2} `);
+
+}
+
+
+let resultado = calc(10, 20, "+");
+
+console.log(resultado);
+
+
+
+function calc(x1, x2, operator) {
+
+    return eval(` ${x1} ${operator} ${x2} `);
+
+}
+
+
+let resultado = calc(10, 20, "+");
+
+console.log(resultado);
+
+*/
+
+
+/*
 let n = 7;
 
 for( let i = 0; i <= 10; i++){
@@ -14,7 +71,6 @@ for( let i = 0; i <= 10; i++){
 }
 
 
-/*
 let cor = "azul";
 switch (cor) {
     case "verde":
