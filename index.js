@@ -5,6 +5,66 @@
  */
 
 
+class celular {
+    constructor() {
+        this.cor = "prata";
+    }
+
+    ligar() {
+        console.log("Uma Ligação");
+        return "ligando";
+    }
+}
+
+
+let objeto = new celular();
+
+console.log(objeto.ligar());
+//console.log(objeto.ligar());
+
+
+/*
+let celular = function (){
+
+    this.cor = "prata";
+
+
+    this.ligar = function (){
+        console.log("uma Ligação");
+        return "Ligando";
+    }
+
+
+
+
+}
+
+let objeto = new celular();
+console.log(objeto);
+console.log(objeto.ligar());
+
+
+
+let carros = ["palio 98", "toro", "uno", 10, true, new Date().toLocaleDateString("pt-br"), function (){}];
+
+carros.forEach(function ( value, index ){
+
+    console.log(index, value);
+});
+
+
+
+
+
+//console.log(carros[5]);
+
+
+
+let agora = new Date();
+
+console.log(agora.toLocaleDateString("pt-br"));
+
+
 window.addEventListener('focus', event => {
 
     console.log("Focus");
@@ -23,17 +83,6 @@ document.addEventListener('click', event =>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-/*
 let calc = (x1, x2, operator) => {
 
     return eval(` ${x1} ${operator} ${x2} `);
